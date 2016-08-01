@@ -1,5 +1,8 @@
 package fr.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
 public class User {
 
 		private String first_name;
