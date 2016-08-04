@@ -1,6 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page isELIgnored="false" %>
 <!DOCTYPE HTML>
 <html>
 <jsp:include page="head.jsp" />
@@ -9,11 +11,10 @@
 	<div class="container theme-showcase padd" role="main">
 		<div class="jumbotron">
 			<h1>Bonjour</h1>
-			<p>Site en cours de réalisation.</p>
+			<p>Site en cours de rÃ©alisation.</p>
 		</div>
 		<div>
-			<h1>Le déploiement sur le serveur Tomcat est à faire en priorité merci : ${message} </h1>
-			<h1><spring:message code="message" arguments="${message}" /></h1>
+			<h1>Le dÃ©ploiement sur le serveur Tomcat est Ã  faire en prioritÃ© merci : ${message} </h1>
 		</div>
 	</div>
 </body>
