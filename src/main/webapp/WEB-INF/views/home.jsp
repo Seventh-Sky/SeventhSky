@@ -12,8 +12,11 @@
 			<p>Site en cours de réalisation.</p>
 		</div>
 		<div>
-			<h1>Le déploiement sur le serveur Tomcat est à faire en priorité merci : ${message} </h1>
-			<h1><spring:message code="message" arguments="${message}" /></h1>
+			<h1>Le déploiement sur le serveur Tomcat est à faire en priorité
+				merci : ${message}</h1>
+			<h1>
+				<spring:message code="message" arguments="${message}" />
+			</h1>
 		</div>
 	</div>
 </body>

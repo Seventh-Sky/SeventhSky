@@ -12,7 +12,8 @@
 			<p>Site en cours de réalisation.</p>
 		</div>
 		<div>
-			<h1>Le déploiement sur le serveur Tomcat est à faire en priorité merci</h1>
+			<h1>Le déploiement sur le serveur Tomcat est à faire en priorité
+				merci</h1>
 		</div>
 	</div>
 </body>
