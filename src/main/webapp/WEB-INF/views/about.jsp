@@ -154,7 +154,7 @@
 		<!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
 
 		<div class="container">
-			<h1 class="logo cursive">Sssoon</h1>
+			<h1 class="logo cursive">Seventh-Sky</h1>
 			<!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
 
 			<div class="content">
