@@ -146,20 +146,11 @@
 	</nav>
 	<div class="main"
 		style="background-image: url('<spring:url value="/resources/screens/seventhsky.jpg" />')">
-
-		<!--    Change the image source '/images/default.jpg' with your favourite image.     -->
-
 		<div class="cover blue" data-color="blue"></div>
-
-		<!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
-
 		<div class="container">
 			<h1 class="logo cursive">Seventh-Sky</h1>
-			<!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
-
 			<div class="content">
-				<h4 class="motto">Find the best Bootstrap 3 freebies and themes
-					on the web.</h4>
+				<h4 class="motto">Site d'échange</h4>
 				<div class="subscribe">
 					<h5 class="info-text">Join the waiting list for the beta. We
 						keep you posted.</h5>
@@ -171,7 +162,9 @@
 										address</label> <input type="email" class="form-control transparent"
 										placeholder="Your email here...">
 								</div>
-								<button type="submit" class="btn btn-danger btn-fill">Notify
+								<button type="submit" class="btn btn-success">Notify
+									Me</button>
+								<button type="submit" class="btn btn-danger">Notify
 									Me</button>
 							</form>
 
