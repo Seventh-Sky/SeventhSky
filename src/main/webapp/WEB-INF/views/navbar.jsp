@@ -7,7 +7,7 @@
 				<li><a href="home">Accueil</a></li>
 				<li><a href="team">Team</a></li>
 				<li><a href="#">Matchs</a></li>
-				<li><a href="#">A Propos</a></li>
+				<li><a href="about">A Propos</a></li>
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
 					data-toggle="dropdown" role="button" aria-haspopup="true"
 					aria-expanded="false">News <span class="caret"></span></a>
