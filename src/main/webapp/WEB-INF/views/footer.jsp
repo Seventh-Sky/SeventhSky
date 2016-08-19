@@ -1,5 +1,5 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
-<footer class="footer navbar-fixed-bottom navbar-inverse">
+<footer class="navbar-inverse">
 	<link rel="stylesheet"
 		href="<spring:url value="/resources/css/styles.css" />">
 
@@ -7,6 +7,19 @@
 		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
 		integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
 		crossorigin="anonymous">
+
+
+	<link href="<spring:url value="/resources/css/bootstrap.css" />"
+		rel="stylesheet" />
+		
+	<link href="<spring:url value="/resources/css/coming-sssoon.css" />"
+		rel="stylesheet" />
+
+	<link
+		href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css"
+		rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Grand+Hotel'
+		rel='stylesheet' type='text/css'>
 
 	<!-- Optional theme -->
 	<link rel="stylesheet"

@@ -3,3 +3,12 @@
 .padd {
 	padding-top: 70px;
 }
+
+.footer {
+	bottom: 0px;
+	max-size: 10%;
+}
+
+full{
+	width: 50%;
+}
