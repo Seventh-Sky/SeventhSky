@@ -109,23 +109,25 @@
 			<div class="content">
 				<h4 class="motto">Site d'échange</h4>
 				<div class="subscribe">
-					<h5 class="info-text">Join the waiting list for the beta. We
-						keep you posted.</h5>
 					<div class="row">
 						<div class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
-							<form class="form-inline" role="form">
+							<form class="form-inline" role="form" action="AuthController">
+								<div class="row">
 								<div class="form-group">
 									<label class="sr-only" for="exampleInputEmail2">Email
 										address</label> <input type="email" class="form-control transparent"
-										placeholder="Your email here...">
+										placeholder="Your email here" name="login">
 								</div>
 								<div class="form-group">
-									<label class="sr-only" for="exampleInputEmail2">Your 
-										password</label> <input type="email" class="form-control transparent"
-										placeholder="Your email here...">
+									<label class="sr-only" for="exampleInputEmail2">Password
+									</label> <input type="password" class="form-control transparent"
+										placeholder="Your password" name="pwd">
 								</div>
-								<div class="form-group">
-									<button type="submit" class="btn btn-success">Valider</button>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<button type="submit" class="btn btn-success">Valider</button>
+									</div>
 								</div>
 							</form>
 
@@ -175,5 +177,7 @@
 		</div>
 	</div>
 </body>
+<link rel="stylesheet"
+	href="<spring:url value="/resources/css/styles_home.css" />">
 <jsp:include page="footer.jsp" />
 </html>

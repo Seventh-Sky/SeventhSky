@@ -1,12 +1,10 @@
+
 /* 
-
-Made with love by Creative Tim (http://www.creative-tim.com)
-
+-----------------------------------------------------------------------------------------------------------------------------------------
+Partie css pour la page d'accueil
+-----------------------------------------------------------------------------------------------------------------------------------------
 */
 
-body{
-    
-}
 .form-control::-moz-placeholder{
    color: #DDDDDD;
    opacity: 1;
@@ -141,7 +139,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
      color: #2C93FF;
     border-color: #2C93FF;
 }
-.btn-success{
+{
     color: #05AE0E;
     border-color: #05AE0E;
 }
@@ -167,7 +165,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     border-color: #1084FF;
     background-color: rgba(0,0,0,.0);
 }
-.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+:hover, :focus, :active, .active, .open .dropdown-toggle {
     color: #049F0C;
     border-color: #049F0C;
     background-color: rgba(0,0,0,.0);
@@ -203,7 +201,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     background-color: rgba(0, 0, 0, 0);
     border-color: #2C93FF;
 }
-.btn-success.disabled, .btn-success[disabled], fieldset[disabled] .btn-success, .btn-success.disabled:hover, .btn-success[disabled]:hover, fieldset[disabled] .btn-success:hover, .btn-success.disabled:focus, .btn-success[disabled]:focus, fieldset[disabled] .btn-success:focus, .btn-success.disabled:active, .btn-success[disabled]:active, fieldset[disabled] .btn-success:active, .btn-success.disabled.active, .btn-success.active[disabled], fieldset[disabled] .btn-success.active {
+.disabled, [disabled], fieldset[disabled] , .disabled:hover, [disabled]:hover, fieldset[disabled] :hover, .disabled:focus, [disabled]:focus, fieldset[disabled] :focus, .disabled:active, [disabled]:active, fieldset[disabled] :active, .disabled.active, .active[disabled], fieldset[disabled] .active {
     background-color: rgba(0, 0, 0, 0);
     border-color: #05AE0E;
 }
@@ -237,7 +235,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     background-color: #2C93FF;
     border-color: #2C93FF;
 }
-.btn-success.btn-fill{
+.btn-fill{
     background-color: #05AE0E;
     border-color: #05AE0E;
 }
@@ -261,7 +259,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     background-color: #1084FF;
     border-color: #1084FF;
 }
-.btn-success.btn-fill:hover, .btn-success.btn-fill:focus, .btn-success.btn-fill:active, .btn-success.btn-fill.active, .open .dropdown-toggle.btn-fill.btn-success {
+.btn-fill:hover, .btn-fill:focus, .btn-fill:active, .btn-fill.active, .open .dropdown-toggle.btn-fill {
     background-color: #049F0C;
     border-color: #049F0C;
 }
@@ -776,7 +774,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     z-index: 1;
 }
 
-.footer{
+/* .footer{
     position: relative;
     bottom: 20px;
     right: 0px;
@@ -791,7 +789,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .footer .heart{
     color: #FF3B30;
-}
+} */
 
 @media (min-width:219px){        
     .main .subscribe .form-group{
@@ -923,5 +921,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     #video_background{
         display: none;
     }
-
 }
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+*/
